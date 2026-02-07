@@ -5,6 +5,9 @@
 
 set -e
 
+# 配置
+COMPOSE_DIR="/root/cc"
+
 log() {
     echo "[$(date '+%H:%M:%S')] $1"
 }
